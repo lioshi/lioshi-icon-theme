@@ -25,16 +25,18 @@ You can build and install the Lioshi icon themes from source, provide you have `
     make
     sudo make install
 
-## Missing Icons & Requests
 
-You can file an icon request as a [GitHub issue](https://github.com/snwh/lioshi-icon-theme/issues/new). Filing an icon request or reporting a missing icon, please take care in providing the following useful information: 
+Fedora: 
 
- - A screenshot of your issue or an image of the original icon you are requesting to be themed
- - The file name for the missing icon or the requested icon, for example `gimp.png` or `system-shutdown.svg`
- - A short description of the application or software that you are requesting an icon for.
+    sudo dnf install xorg-x11-apps
 
-Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
+Generate icons ancd cursor after changes (clean bitmaps directory before) and in src directory launch:
 
-## Help & Support
+    sh render-cursors.sh 
 
-You can visit the support channel `#Lioshi-Chat` on Freenode for questions or discussion. The development of Lioshi is in part supported by [Patreon](http://patreon.com/snwh/), pledges are much appreciated. &#x1F60A;
+And then
+
+    ./autogen.sh
+    make
+    sudo make install
+
