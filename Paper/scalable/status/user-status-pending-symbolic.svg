@@ -10,7 +10,7 @@
       <cc:Work rdf:about=''>
         <dc:format>image/svg+xml</dc:format>
         <dc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/>
-        <dc:title>Paper Symbolic Icon Theme</dc:title>
+        <dc:title>Lioshi Symbolic Icon Theme</dc:title>
         <cc:license rdf:resource='http://creativecommons.org/licenses/by-sa/3.0/'/>
       </cc:Work>
       <cc:License rdf:about='http://creativecommons.org/licenses/by-sa/3.0/'>
@@ -23,7 +23,7 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
-  <title id='title8473'>Paper Symbolic Icon Theme</title>
+  <title id='title8473'>Lioshi Symbolic Icon Theme</title>
   <defs id='defs7386'>
     <linearGradient id='linearGradient6882' osb:paint='solid'>
       <stop id='stop6884' offset='0' style='stop-color:#555555;stop-opacity:1;'/>

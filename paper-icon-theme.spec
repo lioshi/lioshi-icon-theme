@@ -1,5 +1,5 @@
 #
-# Spec file for package paper-icon-theme
+# Spec file for package lioshi-icon-theme
 #
 # Copyright (c) 2016 Sam Hewitt
 #
@@ -13,12 +13,12 @@
 # published by the Open Source Initiative.
 #
 
-Name:           paper-icon-theme
+Name:           lioshi-icon-theme
 Version:        1.4
 Release:        0
 License:        CC-BY-SA-4.0
-Summary:        Paper Icon theme
-Url:            https://snwh.org/paper
+Summary:        Lioshi Icon theme
+Url:            https://snwh.org/lioshi
 Group:          System/GUI/Other
 Source:         %{name}-%{version}.tar.xz
 BuildRequires:  automake
@@ -29,7 +29,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
 
 %description
-Paper is simple and modern icon theme with material design influences.
+Lioshi is simple and modern icon theme with material design influences.
 
 %prep
 %setup -q
@@ -43,14 +43,14 @@ make %{?_smp_mflags}
 
 %install
 make install DESTDIR=%{buildroot} %{?_smp_mflags}
-rm -f %{buildroot}%{_datadir}/icons/Paper/AUTHORS
-%fdupes %{buildroot}%{_datadir}/icons/Paper
+rm -f %{buildroot}%{_datadir}/icons/Lioshi/AUTHORS
+%fdupes %{buildroot}%{_datadir}/icons/Lioshi
 
 %post
-%icon_theme_cache_post Paper
+%icon_theme_cache_post Lioshi
 
 %files
 %defattr(-,root,root)
 %doc AUTHORS COPYING LICENSE README.md
-%{_datadir}/icons/Paper
-%ghost %{_datadir}/icons/Paper/icon-theme.cache
+%{_datadir}/icons/Lioshi
+%ghost %{_datadir}/icons/Lioshi/icon-theme.cache

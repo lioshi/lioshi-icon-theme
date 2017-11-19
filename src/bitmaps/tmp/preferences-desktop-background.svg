@@ -20,9 +20,9 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new"
-   inkscape:export-filename="/home/sam/paper-template.png">
+   inkscape:export-filename="/home/sam/lioshi-template.png">
   <title
-     id="title3004">Paper Icon Theme</title>
+     id="title3004">Lioshi Icon Theme</title>
   <sodipodi:namedview
      stroke="#ef2929"
      fill="#f57900"
@@ -125,7 +125,7 @@
         <dc:source />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
-        <dc:title>Paper Icon Theme</dc:title>
+        <dc:title>Lioshi Icon Theme</dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -209,7 +209,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'"
            y="332.76678"
            x="142.48828"
-           sodipodi:role="line">preferences-desktop-wallpaper</tspan></text>
+           sodipodi:role="line">preferences-desktop-walllioshi</tspan></text>
       <rect
          style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          id="rect4358"

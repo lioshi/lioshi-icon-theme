@@ -2,11 +2,11 @@
 #
 # Legal Stuff:
 #
-# This file is part of the Paper Icon Theme and is free software; you can redistribute it and/or modify it under
+# This file is part of the Lioshi Icon Theme and is free software; you can redistribute it and/or modify it under
 # the terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; version 3.
 #
-# This file is part of the Paper Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
+# This file is part of the Lioshi Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
 # ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 # FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
 # details.
@@ -26,7 +26,7 @@ INKSCAPE = '/usr/bin/inkscape'
 
 # Render 24x24 pixel panel icons
 SRC24 = "panel/source-panel-24.svg"
-PREFIX24 = "../Paper/24x24"
+PREFIX24 = "../Lioshi/24x24"
 
 
 def chopSVG(icon)
@@ -104,7 +104,7 @@ end
 
 # Render 22x22 pixel panel icons
 SRC22 = "panel/source-panel-22.svg"
-PREFIX22 = "../Paper/22x22"
+PREFIX22 = "../Lioshi/22x22"
 
 
 def chopSVG(icon)
@@ -181,7 +181,7 @@ end
 
 # Render 16x16 pixel panel icons
 SRC16 = "panel/source-panel-16.svg"
-PREFIX16 = "../Paper/16x16"
+PREFIX16 = "../Lioshi/16x16"
 
 
 def chopSVG(icon)

@@ -18,7 +18,7 @@
    version="1.0"
    sodipodi:docname="source-cursors.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/sam/paper-cursors.png"
+   inkscape:export-filename="/home/sam/lioshi-cursors.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:modified="true">
@@ -782,7 +782,7 @@
         </dc:creator>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
-        <dc:source>https://github.com/snwh/paper-icon-theme</dc:source>
+        <dc:source>https://github.com/snwh/lioshi-icon-theme</dc:source>
         <dc:subject>
           <rdf:Bag>
             <rdf:li>simple</rdf:li>
@@ -794,7 +794,7 @@
             <rdf:li>xcursor</rdf:li>
           </rdf:Bag>
         </dc:subject>
-        <dc:description>The Paper cursor theme</dc:description>
+        <dc:description>The Lioshi cursor theme</dc:description>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">

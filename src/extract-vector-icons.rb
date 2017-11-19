@@ -2,11 +2,11 @@
 #
 # Legal Stuff:
 #
-# This file is part of the Paper Icon Theme and is free software; you can redistribute it and/or modify it under
+# This file is part of the Lioshi Icon Theme and is free software; you can redistribute it and/or modify it under
 # the terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; version 3.
 #
-# This file is part of the Paper Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
+# This file is part of the Lioshi Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
 # ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 # FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
 # details.
@@ -23,7 +23,7 @@ include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
 SRC16 = "vector/source-16x16.svg"
-PREFIX16 = "../Paper/16x16"
+PREFIX16 = "../Lioshi/16x16"
 
 def chopSVG(icon)
   FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
@@ -98,7 +98,7 @@ else #only render the icons passed
 end
 
 SRC48 = "vector/source-48x48.svg"
-PREFIX48 = "../Paper/48x48"
+PREFIX48 = "../Lioshi/48x48"
 
 def chopSVG(icon)
   FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
